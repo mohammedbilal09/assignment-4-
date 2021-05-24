@@ -6,6 +6,7 @@
 
 .header{
 	min-height: 100vh;
+	height: 800px;
 	width: 100%;
 	background-image: linear-gradient(rgba(4,20,30,0.7),rgba(4,20,30,0.7)),url(images/background.png);
 	background-position: center;
@@ -56,6 +57,7 @@ nav img{
 	transition: 0.1s;
 
 }
+
 
 .nav-links ul li:hover::after{
 	width: 100%;
@@ -189,6 +191,7 @@ nav img{
 
 .single-key-col{
 	flex-basis: 31%;
+	border: 50px solid #fff;
 	border-radius: 5px;
 	margin-bottom: 5%;
 	margin: 5px;
@@ -200,7 +203,7 @@ nav img{
 .single-key-col img{
 	width: 100%;
 	border-radius: 0 0 50% 50%;
-	padding-bottom: 10px;
+	padding-bottom: 60px;
 
 }
 
@@ -215,5 +218,43 @@ nav img{
 .single-key-col p5{
 	color: #DAA520;
 	text-align: center;
-	padding-left: 135px;
+	font-size: 20px;
+	padding-left: 128px;
+}
+
+.fas.fa-parachute-box {
+	position: absolute;
+	font-size: 30px;
+	color: #fff;
+	border: 8px solid #fff;
+	border-radius: 45% 45% 50% 50%;
+	background-color: #DAA520;
+	padding: 15px;
+	margin: 15px;
+	top : 46%;
+	left: 36%;
+}
+.far.fa-heart{
+	position: absolute;
+	font-size: 30px;
+	color: #fff;
+	border: 8px solid #fff;
+	border-radius: 45% 45% 50% 50%;
+	background-color: #DAA520;
+	padding: 15px;
+	margin: 15px;
+	top : 46%;
+	left: 35%;
+}
+.fas.fa-igloo{
+	position: absolute;
+	font-size: 30px;
+	border-radius: 45% 45% 50% 50%;
+	border: 8px solid #fff;
+	background-color: #DAA520;
+	padding: 15px;
+	margin: 15px;
+	color: #fff;
+	top : 46%;
+	left: 39%;
 }
